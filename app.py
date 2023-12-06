@@ -2,7 +2,6 @@ import dash
 from dash import Dash, dcc, html
 from dash.dependencies import Input, Output
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 from datetime import date
