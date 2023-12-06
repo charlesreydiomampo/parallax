@@ -8,6 +8,7 @@ import plotly.express as px
 from datetime import date
 
 app = Dash(__name__)
+server = app.server
 
 df = pd.read_csv("bystation.csv")
 raw_data_ = pd.read_csv("Raw Data 2016 - 2022.csv")
